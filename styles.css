@@ -1,0 +1,235 @@
+html, body{
+    margin: 0;
+    color: white;
+    padding: 0;
+    height: 100%;
+    display: flexbox;
+    flex-direction: row;
+}
+
+header {
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 20px 10px; /* Add some padding for better appearance */
+    display: flex;
+    height: 18%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(121, 115, 115);
+}
+
+.logo {
+    background-color: blue;
+    background-image: url(images/images.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex: 1;
+    height: 100%;
+    text-indent: -99999px;
+}
+
+.hText {
+    background-color: white;
+    flex: 2;
+    text-align: center;
+}
+
+.options {
+    background-color: white;
+    justify-content: flex-end;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+    right: 0%;
+}
+
+.options ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+a:active{
+    color: gray;
+}
+
+.options li {
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+}
+main .outMost{
+    background-color: black
+    color: black;
+    flex: 1;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.outMost{
+    background-image: url("images/download.jpeg");
+    background-size: 100%;
+}
+
+.outMost > div:first-child{
+    flex: 3;
+    color: green;
+}
+
+.outMost .content{
+    flex: 7;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+}
+
+.lis{
+    list-style-type: none;
+}
+
+.scienceMain{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/replace.avif);
+    background-position: center;
+}
+.title{
+    height: 100%;
+    flex: 1;
+    color: white;
+    overflow: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.subjects{
+    flex: 9;
+    flex-wrap: wrap;
+}
+
+.subjects ul{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(122, 25, 82);
+}
+.subjects ul li{
+    flex: 1;
+}
+.subjects ul li a{
+    color: rgb(243, 19, 93) ;
+}
+
+
+.describtion{
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 50%;
+}
+
+#posterImage{
+    border-radius: 5%;
+    height: 600px;
+}
+
+.hide{
+    display: none;
+}
+
+.contactMain{
+   color: black;
+}
+.form{
+    margin-top: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.contactSign{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.contactBody{
+    margin: 0px 0px;
+    background-image: url(images/contactBackground.jpeg);
+    background-size: 100%;
+    color: rgb(207, 13, 45);
+}
+
+.font{
+    font-size: 40px;
+}
+
+.move{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.color{
+    color: black;
+}
+
+.big{
+    font: 30px;
+    color: white;
+}
+
+#about{
+    font-size: 45px;
+}
+
+#aboutP{
+    font-size: 20px;
+}
+.aboutMain{
+    color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+.innerMain{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.italics{
+    font-size: 20px;
+}
