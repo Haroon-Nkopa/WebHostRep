@@ -1,3 +1,4 @@
+/* styles affecting index.html*/
 html, body{
     margin: 0;
     color: white;
@@ -20,20 +21,26 @@ header {
     border-bottom: 1px solid rgb(121, 115, 115);
 }
 
-.logo {
+/* mobile view of index.html*/
+
+#logo {
     background-color: blue;
-    background-image: url(images/images.png);
-    background-size: 100%;
     background-repeat: no-repeat;
     flex: 1;
-    height: 100%;
     text-indent: -99999px;
+    border-radius: 10px;
 }
 
 .hText {
     background-color: white;
     flex: 2;
     text-align: center;
+}
+
+@media screen and (max-width: 973px) {
+    .hText{
+        display: none;
+    }
 }
 
 .options {
@@ -151,6 +158,13 @@ figure{
 }
 img{
     border-radius: 50%;
+}
+
+@media screen and (mas-width: 515px) {
+    .height{
+        height: auto;
+    }
+    
 }
 
 #posterImage{
