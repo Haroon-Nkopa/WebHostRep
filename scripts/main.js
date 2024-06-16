@@ -31,3 +31,18 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("resize", resize);
 });
 
+document.addEventListener("DOMContentLoaded", function(){
+    var header = document.getElementById("mainHeader");
+    var logo = document.getElementById("logo");
+
+    function resizeWidth()
+    {
+        var headerWidth = header.clientWidth*20/100;
+        logo.style.width = headerWidth + 'px';
+    }
+
+    resizeWidth();
+
+    window.addEventListener("resize", resizeWidth);
+});
+
