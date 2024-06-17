@@ -126,12 +126,12 @@ footer{
 
 
 .outMost > div:first-child{
-    flex: 3;
+    flex: 5;
     color: green;
 }
 
 .outMost .content{
-    flex: 7;
+    flex: 5;
 }
 
 figure{
