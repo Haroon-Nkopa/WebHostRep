@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     function resizeWidth()
     {
-        var headerWidth = header.clientWidth*20/100;
+        var headerWidth = header.clientWidth*35/100;
         logo.style.width = headerWidth + 'px';
     }
 
@@ -46,3 +46,18 @@ document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener("resize", resizeWidth);
 });
 
+document.addEventListener("DOMContentLoaded", function()
+{
+    var headerBackground = document.getElementById("hText");
+    var header = document.getElementById("mainHeader");
+
+    function resizehTextHeigth()
+    {
+        var headerHeight = header.clientHeight;
+        headerBackground.clientHeight = headerHeight +'px';
+    }
+
+    resizehTextHeigth();
+
+    window.addEventListener("resize", resizehTextHeigth);
+});
