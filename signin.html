@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body>
+    <body id="signinBody">
         <header id="signinHeader">
             <a class="logo" href="index.html">
                 <img id="logo" src="images/images.png" alt="Genius Club logo">
@@ -29,9 +29,51 @@
                 <h3>See you in class &#x1F609;</h3>
             </div>
 
-            <form>
-                <label for=""></label>
-            </form>
+            <div id="cover">
+                <form>
+                    <img id="logohead" src="images/images33.jpeg" alt="">
+                    <label>
+                        Name:
+                        <input type="text" name="name" placeholder="Haroon" required>
+                    </label>
+                    <label>
+                        Surname:
+                        <input type="text" name="surname" placeholder="Nkopa" required>
+                    </label>
+                    <label>
+                        Grade:
+                        <input type="text" name="Grade" placeholder="10" required>
+                    </label>
+                    <label>
+                        Contact Numbers:
+                        <input type="text" name="contact" placeholder="0780270138" required>
+                    </label>
+                    <label>
+                        address:
+                        <input type="text" name="address" placeholder="8611 ext6b Orange Farm Johannesburg" required>
+                    </label>
+                    <label>
+                        <button onclick="submitMessage()" id="buttonSubmit" name="submit">submit</button>
+                    </label>
+                </form>
+    
+
+            <div id="signinImage">
+                <img id="purpleImage" src="images/purpleSign.png" alt="">
+                <h2>SIGNIN</h2>
+            </div>
+
+        </div>
         </main>
+
+
     </body>
+    <footer id="signinFotter">
+        Created and maintained by RJ BUILDERS.
+
+        Haroon Nkopa : 078 027 0138
+
+        Email : reathabilejames26@gmail.com
+        <script src="scripts/main.js"></script>
+   </footer>
 </html>

@@ -61,3 +61,8 @@ document.addEventListener("DOMContentLoaded", function()
 
     window.addEventListener("resize", resizehTextHeigth);
 });
+
+function submitMessage()
+{
+    alert("OOps, Something went wrong try again later!!");
+}

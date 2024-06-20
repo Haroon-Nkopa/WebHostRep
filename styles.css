@@ -288,9 +288,96 @@ footer{
 }
 
 #signinMain{
-    color: black;
+    color: black
+    background-size: 100%;
 }
 
 #signinHeading h1{
     color: rgb(150, 63, 121);
+}
+
+form{
+    width: 35%;
+    background-color: rgb(160, 128, 192);
+    shape-outside: margin-box;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    box-shadow: -50px -40px 100px rebeccapurple;
+    padding: 30px;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin: 20px;
+}
+
+#cover{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: -300px;
+}
+
+#purpleImage{
+    border-radius: 10px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    box-shadow: 50px -40px 50px rgb(175, 88, 175);
+    left: -70px;
+    padding: 2px;
+}
+
+#signinBody{
+    padding-bottom: 30px;
+    background-color: rgb(211, 176, 211);
+    height: 100%;
+}
+
+#signinFotter{
+    margin-top: 40px;
+}
+
+#logohead{
+    height: 100px;
+    position: relative;
+    left: 150px;
+    border-radius: 70%;
+
+}
+
+#signinImage h2{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    color: rgb(32, 27, 27);
+}
+
+#buttonSubmit{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    border: purple;
+}
+
+#button:hover{
+    background-color: blueviolet;
+}
+
+label input{
+    border-radius: 5px;
+    border: purple;
+    height: 25px;
+}
+
+video{
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    left: 50px;
 }
